@@ -3,7 +3,11 @@
 Description
 Site e-commerce en PHP (v8.2.12) avec gestion des utilisateurs (clients/admin), panier, et gestion des produits.
 Aperçu visuel
-Page d'accueil captures/
+Page d'accueil captures/Accueil.png
+Connexion captures/connexion.png
+Panier  captures/panier1.png captures/panier2.png
+Admin captures/gestion_admin1.png captures/gestion_admin2.png captures/modifier_produit_admin.png
+Confirmations lors d'actions sensibles captures/confirmations_actions.png
 Fonctionnalités
 Inscription, connexion, gestion des sessions
 
