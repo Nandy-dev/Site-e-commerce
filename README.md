@@ -1,55 +1,61 @@
-# Site-e-commerce
+# 🛍️ E-commerce Website (PHP)
 
-Description
-Site e-commerce en PHP (v8.2.12) avec gestion des utilisateurs (clients/admin), panier, et gestion des produits.
-## 📸 Aperçu visuel
+An e-commerce platform built with PHP (v8.2.12) featuring user management (clients/admin), shopping cart, order processing, and admin interface.
 
-### 🏠 Page d'accueil
-![Page d'accueil](captures/Accueil.png)
+---
 
-### 🔐 Connexion
-![Connexion](captures/connexion.png)
+## 📸 Visual Overview
 
-### 🛒 Panier
-![Panier 1](captures/panier1.png)
-![Panier 2](captures/panier2.png)
+### 🏠 Home Page  
+![Home](captures/Accueil.png)
 
-### 🛠️ Admin
-![Gestion admin 1](captures/gestion_admin.png)
-![Gestion admin 2](captures/gestion_admin2.png)
-![Modifier produit](captures/modifier_produit_admin.png)
+### 🔐 Login  
+![Login](captures/connexion.png)
 
-### ⚠️ Confirmations lors d'actions sensibles
+### 🛒 Cart  
+![Cart 1](captures/panier1.png)  
+![Cart 2](captures/panier2.png)
+
+### 🛠️ Admin Interface  
+![Admin 1](captures/gestion_admin.png)  
+![Admin 2](captures/gestion_admin2.png)  
+![Edit Product](captures/modifier_produit_admin.png)
+
+### ⚠️ Action Confirmations  
 ![Confirmations](captures/confirmation_actions.png)
 
-Fonctionnalités
-Inscription, connexion, gestion des sessions
+---
 
-Ajout au panier avec vérification du stock
+## ✅ Main Features
 
-Passage de commande
+- User registration, login, and session management  
+- Add to cart with **stock availability checks**  
+- Order placement  
+- Admin panel:
+  - Add / update / delete products  
+- Confirmation prompts for critical actions  
+- Server-side form validation during registration  
 
-Interface admin pour ajouter/modifier/supprimer des produits
+---
 
-Structure
-bash
-Copier
-Modifier
-/admin/ (fonctions admin)  
-/client/ (fonctions clients)  
-/include/db_connect.php (connexion BDD)  
-/images/ (images produits)  
-/css/ (styles)  
-/js/ (scripts)  
-index.php (accueil)  
-accueil_client.php (accueil connecté)  
-connexion.php / inscription.php / deconnexion.php  
+## 🗂️ Project Structure
 
+/admin/ → Admin functions
+/client/ → Client-side logic
+/include/ → Database connection (db_connect.php)
+/images/ → Product images
+/css/ → Stylesheets
+/js/ → JavaScript files
+index.php → Homepage
+accueil_client.php → Logged-in homepage
+connexion.php → Login
+inscription.php → Sign up
+deconnexion.php → Logout
 
-Remarques
-Le bouton “Ajouter au panier” est toujours visible, mais l’ajout est bloqué si le produit est en rupture de stock.
+---
 
-Une validation des champs est réalisée côté serveur lors de l’inscription.
+## 📝 Notes
 
-Toutes les actions critiques sont confirmées par des messages à l’utilisateur.
-
+- The **“Add to cart”** button is always visible, but additions are blocked if the item is out of stock.  
+- All **sensitive actions** (e.g. deletion, logout) are confirmed by the user.  
+- Form validation is performed server-side to ensure data integrity.
