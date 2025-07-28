@@ -15,12 +15,12 @@ Site e-commerce en PHP (v8.2.12) avec gestion des utilisateurs (clients/admin), 
 ![Panier 2](captures/panier2.png)
 
 ### 🛠️ Admin
-![Gestion admin 1](captures/gestion_admin1.png)
+![Gestion admin 1](captures/gestion_admin.png)
 ![Gestion admin 2](captures/gestion_admin2.png)
 ![Modifier produit](captures/modifier_produit_admin.png)
 
 ### ⚠️ Confirmations lors d'actions sensibles
-![Confirmations](captures/confirmations_actions.png)
+![Confirmations](captures/confirmation_actions.png)
 
 Fonctionnalités
 Inscription, connexion, gestion des sessions
